@@ -1,12 +1,8 @@
+public class GeneralBook extends Book {
 
-
-//new variable
-public class GeneralBook extends Book{
-
-    public GeneralBook(int numberOfBooks, String borrower, boolean isAvailable, boolean isOverDue) {
-        super(numberOfBooks, borrower, isAvailable, isOverDue);
+    public GeneralBook(String title, String author, int yearPublished) {
+        super(title, author, yearPublished);
         // TODO Auto-generated constructor stub
     }
- 
 
 }

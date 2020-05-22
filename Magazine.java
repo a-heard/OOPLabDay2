@@ -1,8 +1,8 @@
-public class Magazine extends Periodical{
+public class Magazine extends Periodical {
 
-    public Magazine(int numberOfBooks, String borrower, boolean isAvailable, boolean isOverDue) {
-        super(numberOfBooks, borrower, isAvailable, isOverDue);
+    public Magazine(String title, String article, String author, String date) {
+        super(title, article, author, date);
         // TODO Auto-generated constructor stub
     }
-        
+
 }
